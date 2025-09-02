@@ -1,0 +1,33 @@
+.physical-section {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(150, 200, 150, 0.2);
+  }
+  
+  .physical-section h2 {
+    color: #388e3c;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .physical-section label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  .physical-section input,
+  .physical-section select,
+  .physical-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #c8e6c9;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 14px;
+  }
+  

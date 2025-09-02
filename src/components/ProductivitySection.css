@@ -1,0 +1,33 @@
+.productivity-section {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 183, 77, 0.2);
+  }
+  
+  .productivity-section h2 {
+    color: #ef6c00;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .productivity-section label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #e65100;
+  }
+  
+  .productivity-section input,
+  .productivity-section select,
+  .productivity-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ffcc80;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 14px;
+  }
+  
