@@ -6,6 +6,7 @@ import TechnologySection from './components/TechnologySection';
 import SocialSection from './components/SocialSection';
 import PersonalSection from './components/PersonalSection';
 import logo from './assets/tracking_logo.svg';
+import './App.css'
 
 function App() {
   const [formData, setFormData] = useState({
