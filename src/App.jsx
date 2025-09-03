@@ -5,6 +5,7 @@ import ProductivitySection from './components/ProductivitySection';
 import TechnologySection from './components/TechnologySection';
 import SocialSection from './components/SocialSection';
 import PersonalSection from './components/PersonalSection';
+import logo from './assets/Tracking-logo.svg';
 
 function App() {
   const [formData, setFormData] = useState({
@@ -68,6 +69,7 @@ const handleSubmit = async () => {
 
   return (
     <div style={{ maxWidth: '600px', margin: '40px auto', padding: '20px', fontFamily: 'sans-serif' }}>
+      <img src={logo} className= "logo" alt= "logo">
       <h1 style={{ fontSize: '28px', color: '#4a5fa3', marginBottom: '20px', textAlign: 'center' }}>Daily Log</h1>
       <MentalSection data={formData} setData={setFormData} />
       <PhysicalSection data={formData} setData={setFormData} />
