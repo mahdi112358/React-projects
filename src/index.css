@@ -30,13 +30,6 @@ body {
   min-height: 100vh;
 }
 
-.logo {
-  height: 60px;
-  width: auto;
-  border-radius: 8px;
-  object-fit: contain;
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
