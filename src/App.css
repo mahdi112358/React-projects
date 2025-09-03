@@ -6,11 +6,13 @@
 }
 
 .logo {
-  height: 5px;
-  width: auto;
-  border-radius: 1px;
-  object-fit: contain;
+  height: 10px;
+  width: 15px;
+  display: block;
+  margin-left: 0;
+  margin-bottom: 20px;
 }
+
 
 
 @keyframes logo-spin {
