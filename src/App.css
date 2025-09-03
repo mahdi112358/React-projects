@@ -6,9 +6,9 @@
 }
 
 .logo {
-  height: 20px;
+  height: 5px;
   width: auto;
-  border-radius: 2px;
+  border-radius: 1px;
   object-fit: contain;
 }
 
