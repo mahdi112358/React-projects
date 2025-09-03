@@ -45,24 +45,25 @@ function App() {
     tomorrowPlan: ''
   });
 
-  const handleSubmit = async () => {
-    try {
-      const response = await fetch('http://localhost:5000/api/save', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
-  
-      if (response.ok) {
-        alert('✅ Data saved to server');
-      } else {
-        alert('❌ Failed to save data');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      alert('⚠️ Server error');
+const handleSubmit = async () => {
+  try {
+    const response = await fetch('https://daily-log-api2-1.onrender.com/api/save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      alert('✅ Data saved successfully!');
+    } else {
+      alert('❌ Failed to save data.');
     }
-  };
+  } catch (error) {
+    console.error('Error:', error);
+    alert('⚠️ Server error occurred.');
+  }
+};
+
   
 
   return (
