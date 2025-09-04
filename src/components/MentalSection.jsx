@@ -22,7 +22,7 @@ export default function MentalSection({ data, setData }) {
       <label>Energy (0–10)</label>
       <input
         type="number"
-        min="0"
+
         max="10"
         value={data.energy}
         onChange={(e) => setData({ ...data, energy: Number(e.target.value) })}
